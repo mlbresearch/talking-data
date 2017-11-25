@@ -18,7 +18,7 @@ It is a list of bug identifiers, one per line, containing the processed bugs for
 
 *bugs-metadata.csv*
 ------------------
-This CSV files contains the following fields:
+This CSV file contains the following fields:
 ```
 BUGID,ROLD-DATE,RFIX-DATE,FIXER,INDUCERS
 ```

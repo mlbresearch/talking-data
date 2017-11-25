@@ -2,7 +2,7 @@
 Dataset for "The Relation between Developers’ Communication and Fix-Inducing Changes: An Empirical Study"
 
 The dataset contains the following tree for each system folder:
-
+```
 <system>
   
   ├── bts-data
@@ -14,7 +14,7 @@ The dataset contains the following tree for each system folder:
   ├── ml-data
   
   └── networks_images
-
+```
 FILES INCLUDED:
 
 *bugids.txt*       
@@ -39,7 +39,7 @@ _BUGFIXCHANGEDFILE_: one of the files changed by the fix
 _COMMITTER_: the committer
 _NUMOFCOMMITTSMADEONCHANGEDFILEBYCOMMITTERINTHEPERIOD_: the number of commits performed by the committer in the period
 
-*<system>\_socialnetworks.zip*
+*<system> _ socialnetworks.zip*
 ------------------------------
 Contains the networks constructed for the mailing lists source.
 These are text files with the following header:
@@ -65,6 +65,6 @@ FROM|TO
 where
 FROM and TO are the identifiers of the persons involved in the chat communication
 
-*network\_<system>\_<bugids>.eps*
+*network_<system>_<bugids>.eps*
 ----------------------------------
 Several raster images of interesting networks.

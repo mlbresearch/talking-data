@@ -27,12 +27,14 @@ and the fix inducing committers.
 ------------------
 This CSV file contains the commits in the considered range by committer and by file
 used to evaluate ownership. It has the following fields:
-BUGID: the bug identifier
+```
+_BUGID_: the bug identifier
 _ROLDLESSNMONTSDATE_: the starting date (rold - 3 months)
 _RFIXDATE_: the ending date (rfix)
 _BUGFIXCHANGEDFILE_: one of the files changed by the fix
 _COMMITTER_: the committer
 _NUMOFCOMMITTSMADEONCHANGEDFILEBYCOMMITTERINTHEPERIOD_: the number of commits performed by the committer in the period
+```
 
 *<system> _ socialnetworks.zip*
 ------------------------------

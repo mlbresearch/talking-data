@@ -28,15 +28,15 @@ and the fix inducing committers.
 This CSV file contains the commits in the considered range by committer and by file
 used to evaluate ownership. It has the following fields:
 ```
-_BUGID_: the bug identifier
-_ROLDLESSNMONTSDATE_: the starting date (rold - 3 months)
-_RFIXDATE_: the ending date (rfix)
-_BUGFIXCHANGEDFILE_: one of the files changed by the fix
-_COMMITTER_: the committer
-_NUMOFCOMMITTSMADEONCHANGEDFILEBYCOMMITTERINTHEPERIOD_: the number of commits performed by the committer in the period
+BUGID: the bug identifier
+ROLDLESSNMONTSDATE: the starting date (rold - 3 months)
+RFIXDATE: the ending date (rfix)
+BUGFIXCHANGEDFILE: one of the files changed by the fix
+COMMITTER: the committer
+NUMOFCOMMITTSMADEONCHANGEDFILEBYCOMMITTERINTHEPERIOD: the number of commits performed by the committer in the period
 ```
 
-*<system> _ socialnetworks.zip*
+*<system>\_socialnetworks.zip*
 ------------------------------
 Contains the networks constructed for the mailing lists source.
 These are text files with the following header:
@@ -62,6 +62,6 @@ FROM|TO
 where
 FROM and TO are the identifiers of the persons involved in the chat communication
 
-*network_<system>_<bugids>.eps*
+*network_<system>\_<bugids>.eps*
 ----------------------------------
 Several raster images of interesting networks.

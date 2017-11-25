@@ -54,7 +54,7 @@ FROM|TO
 where
 FROM and TO are the identifiers of the persons involved in the BTS communication
 
-*\<network\>.tar.gz*
+*network.tar.gz*
 ------------------
 Contains the networks constructed for the BTS source.
 These are text files with the following header:

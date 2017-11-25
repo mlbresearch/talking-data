@@ -3,7 +3,7 @@ Dataset for "The Relation between Developers’ Communication and Fix-Inducing C
 
 The dataset contains the following tree for each system folder:
 
-<system>/
+<system>
   
   ├── bts-data
   

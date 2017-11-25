@@ -4,11 +4,11 @@ Dataset for "The Relation between Developers’ Communication and Fix-Inducing C
 The dataset contains the following tree for each system folder:
 
 <system>/
-├── bts-data  
-├── chat-data
-├── git-bts-integration-data
-├── ml-data
-└── networks_images
+  ├── bts-data
+  ├── chat-data 
+  ├── git-bts-integration-data
+  ├── ml-data
+  └── networks_images
 
 FILES INCLUDED:
 

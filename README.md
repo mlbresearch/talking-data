@@ -19,7 +19,9 @@ It is a list of bug identifiers, one per line, containing the processed bugs for
 *bugs-metadata.csv*
 ------------------
 This CSV files contains the following fields:
+```
 BUGID,ROLD-DATE,RFIX-DATE,FIXER,INDUCERS
+```
 For each bugid provides the date range under analysis (rold,rfix) , the FIXER
 and the fix inducing committers.
 
@@ -40,27 +42,39 @@ NUMOFCOMMITTSMADEONCHANGEDFILEBYCOMMITTERINTHEPERIOD: the number of commits perf
 ------------------------------
 Contains the networks constructed for the mailing lists source.
 These are text files with the following header:
+```
 FROM|TO|DATE|FILES(;)
+```
 where
 FROM and TO are the identifiers of the persons involved in the Communication
+```
 DATE is the date of the Communication
 FILES are the files that are refereed in the text body separated by ;
+```
 
 *\<system\>-bts.zip*
 ------------------
 Contains the networks constructed for the BTS source.
 These are text files with the following header:
+```
 FROM|TO
+```
 where
+```
 FROM and TO are the identifiers of the persons involved in the BTS communication
+```
 
 *network.tar.gz*
 ------------------
 Contains the networks constructed for the BTS source.
 These are text files with the following header:
+```
 FROM|TO
+```
 where
+```
 FROM and TO are the identifiers of the persons involved in the chat communication
+```
 
 *network_\<system\>\_<bugids>.eps*
 ----------------------------------
